@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.third {
+    width: 30%;
+    height: 100%;
+    background-color: crimson;
+}
+
+.rest {
+    width: 70%;
+    height: 100%;
+}
+
+img {
+    border-radius: 20%;
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.leftMargin {
+    margin-left: 10%;
+}
