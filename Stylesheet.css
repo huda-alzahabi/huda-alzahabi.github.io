@@ -92,3 +92,7 @@
     img:hover {
         transform: scale(1.1);
     }
+    
+    ul.a {
+        list-style-type: circle;
+    }
