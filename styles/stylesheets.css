@@ -96,3 +96,16 @@
     ul.a {
         list-style-type: circle;
     }
+    
+    .skills>div {
+        border: 1px solid crimson;
+        border-radius: 5px;
+        margin: auto;
+        background-color: #f0a5ac;
+        padding: 0.5%;
+    }
+    
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+    }
