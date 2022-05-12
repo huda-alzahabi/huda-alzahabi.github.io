@@ -113,7 +113,7 @@
         width: 80%;
     }
     
-    .skills>div {
+    .skills>p {
         border: 1px solid crimson;
         border-radius: 5px;
         margin: auto;
@@ -126,6 +126,15 @@
         flex-wrap: wrap;
     }
     
-    .shrink {
-        flex-shrink: 0;
+    .lowerRight {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .hobbies {
+        width: 25%;
+    }
+    
+    .mid {
+        text-align: center;
     }
