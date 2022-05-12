@@ -70,11 +70,8 @@
         background-color: #f0a5ac;
     }
     
-    .fa-linkedin {
-        margin-left: 12%;
-    }
-    
     .fa-envelope,
+    .fa-linkedin,
     .fa-instagram {
         margin-left: 5%;
     }
@@ -97,6 +94,25 @@
         list-style-type: circle;
     }
     
+    .info {
+        margin: auto;
+        text-align: center;
+        width: 20%;
+    }
+    
+    .upperDiv {
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .leftUp {
+        margin-left: 2%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    
     .skills>div {
         border: 1px solid crimson;
         border-radius: 5px;
@@ -108,4 +124,8 @@
     .skills {
         display: flex;
         flex-wrap: wrap;
+    }
+    
+    .shrink {
+        flex-shrink: 0;
     }
