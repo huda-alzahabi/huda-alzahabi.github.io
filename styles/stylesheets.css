@@ -98,6 +98,7 @@
         margin: auto;
         text-align: center;
         width: 20%;
+        flex-direction: row;
     }
     
     .upperDiv {
