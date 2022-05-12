@@ -138,3 +138,12 @@
     .mid {
         text-align: center;
     }
+    
+    @media (max-width: 800px) {
+        .lowerRight {
+            flex-direction: column;
+        }
+        .hobbies {
+            width: 100%;
+        }
+    }
