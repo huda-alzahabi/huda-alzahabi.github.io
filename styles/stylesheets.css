@@ -146,5 +146,6 @@
         }
         body {
             font-size: x-small;
+            word-break: break-word;
         }
     }
